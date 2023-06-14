@@ -25,4 +25,16 @@ void main() {
 
   print("this is int to string $inToString");
   print("this is double to string $doubleToString");
+
+  // boolean to string
+  var boolean = true;
+
+  print(boolean.toString());
+
+  // string to boolean
+  var str = "true";
+
+  var checkStr = str == "true";
+
+  print(checkStr);
 }
