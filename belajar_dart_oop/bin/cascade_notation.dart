@@ -4,6 +4,10 @@ class User {
   String? email;
 }
 
+User? createUser() {
+  return null;
+}
+
 void main() {
   // regular way to create object
   // var userRegular = User();
@@ -20,4 +24,14 @@ void main() {
   print(user.email);
   print(user.name);
   print(user.username);
+
+  // nullable cascade notation
+  User? user2 = createUser()
+    ?..username = "infinitedim"
+    ..name = "Dimas"
+    ..email = "dimas@saputra";
+
+  print(user2?.email);
+  print(user2?.name);
+  print(user2?.username);
 }
