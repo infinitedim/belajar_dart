@@ -5,6 +5,13 @@ class User {
 }
 
 void main() {
+  // regular way to create object
+  // var userRegular = User();
+  // userRegular.username = "infinitedim";
+  // userRegular.name = "Dimas";
+  // userRegular.email = "dimas@saputra.com";
+
+  // cascade notation way to create object
   var user = User()
     ..username = "infinitedim"
     ..name = "Dimas"
