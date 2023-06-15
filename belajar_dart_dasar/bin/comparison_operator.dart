@@ -1,4 +1,8 @@
 void main() {
-  var nilaiAkhir = 90;
-  var nilaiAbsen = 90;
+  var nilaiA = 80;
+  var nilaiB = 80;
+
+  bool hasil = nilaiA == nilaiB;
+
+  print(hasil);
 }
