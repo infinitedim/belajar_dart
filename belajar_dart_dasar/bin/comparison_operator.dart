@@ -3,6 +3,8 @@ void main() {
   var nilaiB = 80;
 
   bool hasil = nilaiA == nilaiB;
+  bool hasilSalah = nilaiA != nilaiB;
 
   print(hasil);
+  print(hasilSalah);
 }

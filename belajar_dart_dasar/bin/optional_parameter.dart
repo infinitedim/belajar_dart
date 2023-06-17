@@ -4,4 +4,5 @@ void sayHello(String firstName, [String? lastName]) {
 
 void main() {
   sayHello("Dimas", "Saputra");
+  sayHello("Dimas"); // this is legal
 }

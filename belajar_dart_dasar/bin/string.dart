@@ -13,6 +13,7 @@ void main() {
    * second, write dollar sign and then write the expression inside the curly braces
    * ${expression}
   */
+  // ignore: unnecessary_brace_in_string_interps
   var fullName = '$firstName ${lastName}';
 
   print(fullName);
