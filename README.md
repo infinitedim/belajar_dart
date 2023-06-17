@@ -31,7 +31,7 @@ gh repo clone infinitedim/belajar_dart
 - how to install dart sdk or flutter sdk? see official documentation down below
 - [dart sdk download](https://dart.dev/get-dart)
 - [flutter sdk download](https://docs.flutter.dev/get-started/install)
-- after install clone this repo, how tf i clone this repo? just see [here](https://github.com/infinitedim/belajar_dart/readme#Clone)
+- after install clone this repo, how tf i clone this repo? just see [here](https://github.com/infinitedim/belajar_dart/tree/main#clone)
 - go to bin folder on belajar_dart_dasar or belajar_dart_oop
 - if you want to learn oop go to belajar_dart_oop
 - example run
