@@ -8,12 +8,8 @@ class Person {
 
 class OtherPerson extends Person {
   @override
+  // ignore: overridden_fields
   String name = "Other Person";
-
-  // @override
-  // void sayHello(String name) {
-  //   print("Hello i am ${this.name}");
-  // }
 }
 
 void main() {
